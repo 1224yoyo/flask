@@ -7,6 +7,8 @@ open_web = True
 
 flask_key=750701
 
+flask_key=str(flask_key)
+
 @app.route("/")
 def home():
     global open_web
